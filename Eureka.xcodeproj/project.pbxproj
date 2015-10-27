@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163534011BC2C6C000332595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163534001BC2C6C000332595 /* AppDelegate.swift */; };
+		163534031BC2C6C000332595 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163534021BC2C6C000332595 /* ViewController.swift */; };
+		163534061BC2C6C000332595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163534041BC2C6C000332595 /* Main.storyboard */; };
+		163534091BC2C6C000332595 /* Eureka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 163534071BC2C6C000332595 /* Eureka.xcdatamodeld */; };
+		1635340B1BC2C6C000332595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1635340A1BC2C6C000332595 /* Assets.xcassets */; };
+		1635340E1BC2C6C000332595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1635340C1BC2C6C000332595 /* LaunchScreen.storyboard */; };
+		163534191BC2C6C000332595 /* EurekaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163534181BC2C6C000332595 /* EurekaTests.swift */; };
+		163534241BC2C6C000332595 /* EurekaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163534231BC2C6C000332595 /* EurekaUITests.swift */; };
+		163534351BC2CA5500332595 /* 38d1da00baa1cd11146bc85fbf12c8fcc2ce2df9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 163534341BC2CA5500332595 /* 38d1da00baa1cd11146bc85fbf12c8fcc2ce2df9.jpg */; settings = {ASSET_TAGS = (); }; };
+		163534371BC2CAD100332595 /* 63c177d98d1001e9ff9ac470be0e7bec54e7973d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 163534361BC2CAD100332595 /* 63c177d98d1001e9ff9ac470be0e7bec54e7973d.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		163534151BC2C6C000332595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163533F51BC2C6C000332595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163533FC1BC2C6C000332595;
+			remoteInfo = Eureka;
+		};
+		163534201BC2C6C000332595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163533F51BC2C6C000332595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163533FC1BC2C6C000332595;
+			remoteInfo = Eureka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163533FD1BC2C6C000332595 /* Eureka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eureka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		163534001BC2C6C000332595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		163534021BC2C6C000332595 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		163534051BC2C6C000332595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		163534081BC2C6C000332595 /* Eureka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eureka.xcdatamodel; sourceTree = "<group>"; };
+		1635340A1BC2C6C000332595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1635340D1BC2C6C000332595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1635340F1BC2C6C000332595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163534141BC2C6C000332595 /* EurekaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		163534181BC2C6C000332595 /* EurekaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaTests.swift; sourceTree = "<group>"; };
+		1635341A1BC2C6C000332595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1635341F1BC2C6C000332595 /* EurekaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		163534231BC2C6C000332595 /* EurekaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaUITests.swift; sourceTree = "<group>"; };
+		163534251BC2C6C000332595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163534341BC2CA5500332595 /* 38d1da00baa1cd11146bc85fbf12c8fcc2ce2df9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 38d1da00baa1cd11146bc85fbf12c8fcc2ce2df9.jpg; path = ../../../image/eureka/38d1da00baa1cd11146bc85fbf12c8fcc2ce2df9.jpg; sourceTree = "<group>"; };
+		163534361BC2CAD100332595 /* 63c177d98d1001e9ff9ac470be0e7bec54e7973d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 63c177d98d1001e9ff9ac470be0e7bec54e7973d.jpg; path = ../../../image/eureka/63c177d98d1001e9ff9ac470be0e7bec54e7973d.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		163533FA1BC2C6C000332595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163534111BC2C6C000332595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1635341C1BC2C6C000332595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163533F41BC2C6C000332595 = {
+			isa = PBXGroup;
+			children = (
+				163533FF1BC2C6C000332595 /* Eureka */,
+				163534171BC2C6C000332595 /* EurekaTests */,
+				163534221BC2C6C000332595 /* EurekaUITests */,
+				163533FE1BC2C6C000332595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		163533FE1BC2C6C000332595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				163533FD1BC2C6C000332595 /* Eureka.app */,
+				163534141BC2C6C000332595 /* EurekaTests.xctest */,
+				1635341F1BC2C6C000332595 /* EurekaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163533FF1BC2C6C000332595 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				163534331BC2C72E00332595 /* image */,
+				163534321BC2C72200332595 /* view */,
+				163534311BC2C71900332595 /* controller */,
+				163534001BC2C6C000332595 /* AppDelegate.swift */,
+				1635340C1BC2C6C000332595 /* LaunchScreen.storyboard */,
+				1635340F1BC2C6C000332595 /* Info.plist */,
+				163534071BC2C6C000332595 /* Eureka.xcdatamodeld */,
+			);
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		163534171BC2C6C000332595 /* EurekaTests */ = {
+			isa = PBXGroup;
+			children = (
+				163534181BC2C6C000332595 /* EurekaTests.swift */,
+				1635341A1BC2C6C000332595 /* Info.plist */,
+			);
+			path = EurekaTests;
+			sourceTree = "<group>";
+		};
+		163534221BC2C6C000332595 /* EurekaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				163534231BC2C6C000332595 /* EurekaUITests.swift */,
+				163534251BC2C6C000332595 /* Info.plist */,
+			);
+			path = EurekaUITests;
+			sourceTree = "<group>";
+		};
+		163534311BC2C71900332595 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				163534021BC2C6C000332595 /* ViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		163534321BC2C72200332595 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				163534041BC2C6C000332595 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		163534331BC2C72E00332595 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1635340A1BC2C6C000332595 /* Assets.xcassets */,
+				163534361BC2CAD100332595 /* 63c177d98d1001e9ff9ac470be0e7bec54e7973d.jpg */,
+				163534341BC2CA5500332595 /* 38d1da00baa1cd11146bc85fbf12c8fcc2ce2df9.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		163533FC1BC2C6C000332595 /* Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163534281BC2C6C000332595 /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildPhases = (
+				163533F91BC2C6C000332595 /* Sources */,
+				163533FA1BC2C6C000332595 /* Frameworks */,
+				163533FB1BC2C6C000332595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eureka;
+			productName = Eureka;
+			productReference = 163533FD1BC2C6C000332595 /* Eureka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		163534131BC2C6C000332595 /* EurekaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1635342B1BC2C6C000332595 /* Build configuration list for PBXNativeTarget "EurekaTests" */;
+			buildPhases = (
+				163534101BC2C6C000332595 /* Sources */,
+				163534111BC2C6C000332595 /* Frameworks */,
+				163534121BC2C6C000332595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163534161BC2C6C000332595 /* PBXTargetDependency */,
+			);
+			name = EurekaTests;
+			productName = EurekaTests;
+			productReference = 163534141BC2C6C000332595 /* EurekaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1635341E1BC2C6C000332595 /* EurekaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1635342E1BC2C6C000332595 /* Build configuration list for PBXNativeTarget "EurekaUITests" */;
+			buildPhases = (
+				1635341B1BC2C6C000332595 /* Sources */,
+				1635341C1BC2C6C000332595 /* Frameworks */,
+				1635341D1BC2C6C000332595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163534211BC2C6C000332595 /* PBXTargetDependency */,
+			);
+			name = EurekaUITests;
+			productName = EurekaUITests;
+			productReference = 1635341F1BC2C6C000332595 /* EurekaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163533F51BC2C6C000332595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lih;
+				TargetAttributes = {
+					163533FC1BC2C6C000332595 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9K3JSZ7D54;
+					};
+					163534131BC2C6C000332595 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9K3JSZ7D54;
+						TestTargetID = 163533FC1BC2C6C000332595;
+					};
+					1635341E1BC2C6C000332595 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9K3JSZ7D54;
+						TestTargetID = 163533FC1BC2C6C000332595;
+					};
+				};
+			};
+			buildConfigurationList = 163533F81BC2C6C000332595 /* Build configuration list for PBXProject "Eureka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163533F41BC2C6C000332595;
+			productRefGroup = 163533FE1BC2C6C000332595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				163533FC1BC2C6C000332595 /* Eureka */,
+				163534131BC2C6C000332595 /* EurekaTests */,
+				1635341E1BC2C6C000332595 /* EurekaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		163533FB1BC2C6C000332595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635340E1BC2C6C000332595 /* LaunchScreen.storyboard in Resources */,
+				1635340B1BC2C6C000332595 /* Assets.xcassets in Resources */,
+				163534351BC2CA5500332595 /* 38d1da00baa1cd11146bc85fbf12c8fcc2ce2df9.jpg in Resources */,
+				163534061BC2C6C000332595 /* Main.storyboard in Resources */,
+				163534371BC2CAD100332595 /* 63c177d98d1001e9ff9ac470be0e7bec54e7973d.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163534121BC2C6C000332595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1635341D1BC2C6C000332595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		163533F91BC2C6C000332595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163534091BC2C6C000332595 /* Eureka.xcdatamodeld in Sources */,
+				163534031BC2C6C000332595 /* ViewController.swift in Sources */,
+				163534011BC2C6C000332595 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163534101BC2C6C000332595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163534191BC2C6C000332595 /* EurekaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1635341B1BC2C6C000332595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163534241BC2C6C000332595 /* EurekaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		163534161BC2C6C000332595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163533FC1BC2C6C000332595 /* Eureka */;
+			targetProxy = 163534151BC2C6C000332595 /* PBXContainerItemProxy */;
+		};
+		163534211BC2C6C000332595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163533FC1BC2C6C000332595 /* Eureka */;
+			targetProxy = 163534201BC2C6C000332595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		163534041BC2C6C000332595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163534051BC2C6C000332595 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1635340C1BC2C6C000332595 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1635340D1BC2C6C000332595 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		163534261BC2C6C000332595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		163534271BC2C6C000332595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		163534291BC2C6C000332595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eureka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lih.Eureka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1635342A1BC2C6C000332595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eureka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lih.Eureka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1635342C1BC2C6C000332595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EurekaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lih.EurekaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eureka.app/Eureka";
+			};
+			name = Debug;
+		};
+		1635342D1BC2C6C000332595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EurekaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lih.EurekaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eureka.app/Eureka";
+			};
+			name = Release;
+		};
+		1635342F1BC2C6C000332595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EurekaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lih.EurekaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Eureka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		163534301BC2C6C000332595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EurekaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lih.EurekaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Eureka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163533F81BC2C6C000332595 /* Build configuration list for PBXProject "Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163534261BC2C6C000332595 /* Debug */,
+				163534271BC2C6C000332595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163534281BC2C6C000332595 /* Build configuration list for PBXNativeTarget "Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163534291BC2C6C000332595 /* Debug */,
+				1635342A1BC2C6C000332595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1635342B1BC2C6C000332595 /* Build configuration list for PBXNativeTarget "EurekaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1635342C1BC2C6C000332595 /* Debug */,
+				1635342D1BC2C6C000332595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1635342E1BC2C6C000332595 /* Build configuration list for PBXNativeTarget "EurekaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1635342F1BC2C6C000332595 /* Debug */,
+				163534301BC2C6C000332595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		163534071BC2C6C000332595 /* Eureka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				163534081BC2C6C000332595 /* Eureka.xcdatamodel */,
+			);
+			currentVersion = 163534081BC2C6C000332595 /* Eureka.xcdatamodel */;
+			path = Eureka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 163533F51BC2C6C000332595 /* Project object */;
+}
